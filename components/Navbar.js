@@ -67,31 +67,31 @@ const Navbar = ({ handleClick }) => {
         transition ${menu ? "block" : "hidden"}`}
       >
         <li
-          className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
+          className="list-none w-full text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
           onClick={() => handleClick("hero")}
         >
           About
         </li>
         <li
-          className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
+          className="list-none w-full text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
           onClick={() => handleClick("projects")}
         >
           Projects
         </li>
         <li
-          className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
+          className="list-none w-full text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
           onClick={() => handleClick("skills")}
         >
           Skills
         </li>
         <li
-          className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
+          className="list-none w-full text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
           onClick={() => handleClick("resume")}
         >
           Resume
         </li>
         <li
-          className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
+          className="list-none w-full text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
           onClick={() => handleClick("contact")}
         >
           Contact
