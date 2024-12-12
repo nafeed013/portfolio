@@ -11,7 +11,7 @@ const Hero = ({ text, handleClick }, ref) => {
     >
       <section className="flex items-center flex-col justify-center text-center">
         <div className="text-2xl lg:text-4xl">
-          HI,<span className="text-purple-800"> I'M NAFEED </span>.
+          HI,<span className="text-purple-800"> I&#39;M NAFEED </span>.
         </div>
         <div className="text-2xl mb-4 lg:text-4xl">
           <span className="text-purple-800"> A </span>FRONTEND DEVELOPER
@@ -28,10 +28,10 @@ const Hero = ({ text, handleClick }, ref) => {
           <span>EXPERIENCE</span>
         </div>
         <div className="p-4">
-          I'm a Frontend Developer with hands on experience using various
-          frontend <span className="text-purple-800">FRAMEWORKS</span>,{" "}
-          <span className="text-purple-800">LIBRARIES</span> and{" "}
-          <span className="text-purple-800">TOOLS</span>.
+          I&#39;m a Frontend Developer with hands on experience using various
+          frontend <span className="text-purple-800"> FRAMEWORKS </span>,
+          <span className="text-purple-800"> LIBRARIES </span> and
+          <span className="text-purple-800"> TOOLS </span>.
         </div>
         <div className="flex justify-center gap-4">
           <button
