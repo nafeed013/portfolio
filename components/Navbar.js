@@ -64,7 +64,7 @@ const Navbar = ({ handleClick }) => {
 
       <div
         className={`absolute xl:hidden top-16 left-0 w-full shadow-lg bg-gradient-to-r from-slate-300 to-white  flex flex-col items-center gap-2
-        transition ${menu ? "hidden" : "block"}`}
+        transition ${menu ? "block" : "hidden"}`}
       >
         <li
           className="list-none w-full shadow-md text-center p-4 hover:text-rose-500 transition-all cursor-pointer"
