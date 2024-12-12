@@ -91,7 +91,10 @@ const Contact = ({ text }, ref) => {
             </dl>
             <div className="flex gap-12 justify-start mt-12">
               <div>
-                <FaLinkedin className="text-3xl rounded-md text-blue-800 transition cursor-pointer hover:scale-125" />
+                <FaLinkedin
+                  href="https://www.linkedin.com/in/mohammad-nafeed-5117102a0/"
+                  className="text-3xl rounded-md text-blue-800 transition cursor-pointer hover:scale-125"
+                />
               </div>
               <Link href="https://github.com/nafeed013/">
                 <FaGithub className="text-3xl rounded-md transition cursor-pointer hover:scale-125" />
