@@ -6,3 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.show-content {
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+
