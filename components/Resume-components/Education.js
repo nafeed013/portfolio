@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = ({ selectedTab }) => {
   return (
-    <div className={selectedTab === 2 ? "show-content" : "content"}>
+    <div className={`${selectedTab === 2 ? "show-content" : "content"}`}>
       <div className="block max-w-2xl text-center p-10 mb-2 bg-gradient-to-r from-slate-300 to-white border border-gray-500 rounded-lg shadow ">
         <h5 className="mb-2 text-lg font-bold tracking-tight">
           Yenepoya Institution (2023)

@@ -19,7 +19,7 @@ const Projects = ({ text }, ref) => {
       <div className="mb-6">
         <h1 className="text-4xl">SKILLS</h1>
       </div>
-      <div className="flex flex-wrap justify-center gap-8 ml-6">
+      <div className="flex flex-wrap justify-center items-center gap-8">
         <div className="rounded-xl p-6 cursor-pointer">
           <FaHtml5 className="text-9xl mb-2 transition text-[#e34f26] hover:scale-125" />
           <span>HTML5</span>
