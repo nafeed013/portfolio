@@ -19,10 +19,7 @@ const Summary = ({ selectedTab }) => {
         <ul className="font-normal text-gray-500">
           <li>Phone : +91 7349422401</li>
           <li>Email : mohammadnafeed013@gmail.com</li>
-          <li>
-            Address : D.no. 7-72b/1, Site no. 136, H.I. Cottage <br /> 7th Block
-            Krishnapura, Mangalore, India - 575014
-          </li>
+          <li>Address : Mangalore, Karnataka, India</li>
         </ul>
       </div>
 

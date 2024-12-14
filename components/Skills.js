@@ -21,12 +21,16 @@ const Projects = ({ text }, ref) => {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-8">
         <div className="rounded-xl p-6 cursor-pointer">
-          <FaHtml5 className="text-9xl mb-2 transition text-[#e34f26] hover:scale-125" />
-          <span>HTML5</span>
+          <GrReactjs className="text-9xl mb-2 transition  text-[#00d8ff] hover:scale-125" />
+          <span>React JS</span>
         </div>
         <div className="rounded-xl p-6 cursor-pointer">
-          <IoLogoCss3 className="text-9xl mb-2 transition text-[#264de4] hover:scale-125" />
-          <span>CSS3</span>
+          <SiNextdotjs className="text-9xl mb-2 transition hover:scale-125" />
+          <span>Next JS</span>
+        </div>
+        <div className="rounded-xl p-6 cursor-pointer">
+          <TbBrandRedux className="text-9xl mb-2 transition text-[#764abc] hover:scale-125" />
+          <span>Redux</span>
         </div>
         <div className="rounded-xl p-6 cursor-pointer">
           <IoLogoJavascript className="text-9xl mb-2 transition text-[#ffe435] hover:scale-125" />
@@ -49,16 +53,12 @@ const Projects = ({ text }, ref) => {
           <span>GitHub</span>
         </div>
         <div className="rounded-xl p-6 cursor-pointer">
-          <GrReactjs className="text-9xl mb-2 transition  text-[#00d8ff] hover:scale-125" />
-          <span>React JS</span>
+          <FaHtml5 className="text-9xl mb-2 transition text-[#e34f26] hover:scale-125" />
+          <span>HTML5</span>
         </div>
         <div className="rounded-xl p-6 cursor-pointer">
-          <TbBrandRedux className="text-9xl mb-2 transition text-[#764abc] hover:scale-125" />
-          <span>Redux</span>
-        </div>
-        <div className="rounded-xl p-6 cursor-pointer">
-          <SiNextdotjs className="text-9xl mb-2 transition hover:scale-125" />
-          <span>Next JS</span>
+          <IoLogoCss3 className="text-9xl mb-2 transition text-[#264de4] hover:scale-125" />
+          <span>CSS3</span>
         </div>
       </div>
     </div>

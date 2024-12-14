@@ -83,19 +83,13 @@ const Contact = ({ text }, ref) => {
                   <span className="sr-only">Address</span>
                   <IoHomeSharp className="text-2xl mt-1" />
                 </dt>
-                <dd>
-                  D.no. 7-72b/1, Site no. 136, H.I. Cottage, 7th Block
-                  Krishnapura, Karnataka, India - 575014
-                </dd>
+                <dd>Mangalore, Karnataka, India</dd>
               </div>
             </dl>
             <div className="flex gap-12 justify-start mt-12">
-              <div>
-                <FaLinkedin
-                  href="https://www.linkedin.com/in/mohammad-nafeed-5117102a0/"
-                  className="text-3xl rounded-md text-blue-800 transition cursor-pointer hover:scale-125"
-                />
-              </div>
+              <Link href="https://www.linkedin.com/in/mohammad-nafeed-5117102a0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <FaLinkedin className="text-3xl rounded-md text-blue-800 transition cursor-pointer hover:scale-125" />
+              </Link>
               <Link href="https://github.com/nafeed013/">
                 <FaGithub className="text-3xl rounded-md transition cursor-pointer hover:scale-125" />
               </Link>

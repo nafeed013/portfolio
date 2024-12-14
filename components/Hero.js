@@ -1,6 +1,7 @@
 import React, { forwardRef } from "react";
 import { TiArrowRightThick } from "react-icons/ti";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = ({ text, handleClick }, ref) => {
   return (
@@ -40,10 +41,11 @@ const Hero = ({ text, handleClick }, ref) => {
           >
             Projects
           </button>
-
-          <button className="border-black border px-2 py-1 transition rounded-lg bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
-            Github
-          </button>
+          <Link href="https://github.com/nafeed013?tab=repositories">
+            <button className="border-black border px-2 py-1 transition rounded-lg bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
+              Github
+            </button>
+          </Link>
         </div>
       </section>
       <section className="flex justify-center">

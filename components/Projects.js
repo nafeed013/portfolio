@@ -24,7 +24,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">Organic store</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/Organic-store">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
@@ -44,7 +44,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">BitLinks</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/url-shortner">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
@@ -64,7 +64,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">Amazon</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/amazon-clone">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
@@ -84,7 +84,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">Nothing</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/nothing-website">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
@@ -104,7 +104,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">Myntra</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/myntra-clone">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
@@ -124,7 +124,7 @@ const Projects = ({ text }, ref) => {
           </div>
           <div className="pt-2 flex p-5 justify-between">
             <h3 className="font-bold text-xl mt-3">YouTube</h3>
-            <Link href="https://github.com/nafeed013/e-commerce">
+            <Link href="https://github.com/nafeed013/youtube-clone">
               <button className="border-black border px-2 py-2 mt-1 rounded-md bg-gradient-to-r from-slate-300 to-white hover:text-rose-500">
                 Source code
               </button>
